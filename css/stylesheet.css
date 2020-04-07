@@ -1,0 +1,349 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, p {
+	font-weight: normal;
+	color: #151B54;
+}
+
+a {
+	text-decoration: none;
+	color: #151B54;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: #2f5167;
+  border-bottom: 2px solid #151B54;
+  position: fixed;
+}
+
+.header-icon {
+	float: left;
+	padding: 20px 40px;
+	color: white;
+}
+
+.header-icon a {
+	color: white;
+}
+
+.header-list li {
+	float: left;
+	padding: 33px 20px;
+	color: white;
+}
+
+.header-list li a {
+	color: white;
+}
+
+.header-list {
+	float: right;
+}
+
+.container {
+	width: 900px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.top-wapper {
+	background-image: url('/image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+.message-wapper {
+	padding-top: 100px;
+	color: #151B54;
+}
+
+.message-wapper h1 {
+	text-align: center;
+	padding: 0 0 10px 0;
+	font-size: 40px
+}
+
+.message-wapper p {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-size: 25px;
+	border-bottom: 2px solid #151B54;
+}
+
+.intro-title {
+	padding: 0 350px 50px 350px;
+}
+
+.intro-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	color: #151B54;
+	
+}
+.intro-wapper {
+	padding: 100px;
+	padding-bottom: 300px;
+}
+
+.intro-wapper img {
+	width: 40%;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+	text-align: center;
+	color: #151B54;
+	letter-spacing: 2px;
+	padding: 70px 0 0 400px;
+}
+
+footer {
+	background-color: #2f5167;
+	color: #fff;
+	height: 100px;
+	padding: 70px;
+}
+
+.footer-logo {
+	font-size: 30px;
+}
+
+.footer-info {
+}
+
+.footer-email {
+	padding: 20px 0 0 0;
+	float: left;
+
+}
+
+.footer-sns img {
+	width: 5%;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.copyright {
+	font-size: 15px;
+	padding: 5px;
+	color:#fff;
+	background-color: #2f5167;
+}
+
+/*Experiences page below*/
+
+.experience-wapper {
+	padding: 150px 0px 150px 0px;
+	background-image: url('/IMG_1024.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.experience-title {
+	padding: 40px 200px 0 200px;
+}
+
+.experience-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+.experience-contents li {
+	padding: 50px 0px 330px 0;
+}
+
+.experience-contents p {
+	letter-spacing: 1px;
+}
+
+.nasa img {
+	width: 20%;
+	float: left;
+}
+
+.foothill img {
+	width: 20%;
+	float: left;
+}
+
+.youtube-link img {
+	width: 5%;
+	float:left;
+	padding: 3px;
+}
+
+.youtube-link p {
+	padding: 15px 0px;
+}
+
+.description-container {
+	float: left;
+	padding: 10px;
+}
+
+/*This is personal project*/
+
+.personal-project-contents li {
+	padding: 0px 0px 250px 0;
+}
+
+.personal-project-title {
+	padding: 50px 230px;
+}
+
+.personal-project-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+.ushinohi-logo {
+	width: 15%;
+	border-radius: 100px;
+}
+
+.personal-project-contents p {
+	letter-spacing: 1px;
+}
+
+.project-icon img {
+	width: 100%;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-icon p {
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 10px;
+}
+
+.project-pic {
+	width: 30%;
+	border-radius: 50px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+/*School project below*/
+
+.school-project-contents {
+	padding: 0px 0px 1100px 0;
+}
+
+.school-project-title {
+	padding: 30px 250px 80px 250px;
+}
+
+.school-project-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+/*Education page below*/
+
+.education-wapper {
+	padding: 150px 0px 150px 0px;
+	background-image: url('/math.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.education-title {
+	padding: 40px 300px 0 300px;
+}
+
+.education-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	margin-bottom: 100px;
+}
+
+.education-contents {
+	height: 1200px;
+}
+
+.education-content {
+	width: 900px;
+	height: 200px;
+	padding: 10px 0;
+}
+
+.education-pic {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.education-name {
+	width: 700px;
+	height: 50px;
+	float: right;
+}
+
+.education-description {
+	width: 700px;
+	height: 100px;
+	float: right;
+}
+
+.education-pic img {
+	width: 100%;
+	border-radius: 30px;
+}
+
+.education-name h1 {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.education-description {
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.vertical-line {
+	height: 100px;
+	width: 100%;
+	border-left: 5px solid grey;
+	margin-left: 100px;
+}
+
+.education-name-okazu h1 {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+/*skills below*/
+
+.skills-wapper {
+	padding: 150px 0px 150px 0px;
+	background-image: url('/programing.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
