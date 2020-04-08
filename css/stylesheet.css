@@ -63,7 +63,7 @@ a {
 }
 
 .top-wapper {
-	background-image: url('/image.jpg');
+	background-image: url('../src/images/image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
@@ -154,7 +154,7 @@ footer {
 
 .experience-wapper {
 	padding: 150px 0px 150px 0px;
-	background-image: url('/IMG_1024.JPG');
+	background-image: url('../src/images/IMG_1024.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -265,7 +265,7 @@ footer {
 
 .education-wapper {
 	padding: 150px 0px 150px 0px;
-	background-image: url('/math.jpg');
+	background-image: url('../src/images/math.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -341,7 +341,7 @@ footer {
 
 .skills-wapper {
 	padding: 150px 0px 150px 0px;
-	background-image: url('/programing.jpg');
+	background-image: url('../src/images/programing.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
