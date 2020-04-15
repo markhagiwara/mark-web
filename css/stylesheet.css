@@ -30,12 +30,19 @@ a {
   background-color: #2f5167;
   border-bottom: 2px solid #151B54;
   position: fixed;
+  opacity: 0.9;
+}
+
+.header-container {
+	height: 90px;
+	width: 100%;
 }
 
 .header-icon {
 	float: left;
 	padding: 20px 40px;
 	color: white;
+	position: fixed;
 }
 
 .header-icon a {
@@ -88,7 +95,9 @@ a {
 }
 
 .intro-title {
-	padding: 0 350px 50px 350px;
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 30px;
 }
 
 .intro-title h1 {
@@ -99,10 +108,9 @@ a {
 }
 .intro-wapper {
 	padding: 100px;
-	padding-bottom: 300px;
 }
 
-.intro-wapper img {
+.aboutme-container img {
 	width: 40%;
 	float: left;
 	border-radius: 10px;
@@ -113,55 +121,95 @@ a {
 	text-align: center;
 	color: #151B54;
 	letter-spacing: 2px;
-	padding: 70px 0 0 400px;
+	height: 300px;
+	width: 400px;
+	float: left;
+	padding: 30px;
+}
+
+.aboutme-container {
+	height: 300px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.quote-wapper {
+	height: 300px;
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.quote-content h1 {
+	text-align: center;
+	font-style: italic;
+	color: grey;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.quote-content h2 {
+	text-align: right;
+	font-style: italic;
+	color: grey;
+	font-family: "Times New Roman", Times, serif;
+	padding-right: 30px;
 }
 
 footer {
 	background-color: #2f5167;
 	color: #fff;
-	height: 100px;
-	padding: 70px;
+	height: 220px;
+	width: 100%;
 }
 
 .footer-logo {
 	font-size: 30px;
+	padding: 30px 30px 0px 30px;
 }
 
 .footer-info {
+	padding-left: 30px;
 }
 
 .footer-email {
-	padding: 20px 0 0 0;
+	padding: 30px;
 	float: left;
 
 }
 
-.footer-sns img {
-	width: 5%;
+.footer-sns {
+	height: 50px;
+	width: 200px;
 	float: right;
-	padding-left: 20px;
-	padding-bottom: 10px;
+}
+
+.footer-sns img {
+	width: 20%;
+	float: left;
+	padding: 10px;
 }
 
 .copyright {
-	font-size: 15px;
-	padding: 5px;
-	color:#fff;
-	background-color: #2f5167;
+	height: 30px;
+	padding-top: 95px;
+	text-align: center;
+	color: #fff;
 }
 
 /*Experiences page below*/
 
 .experience-wapper {
-	padding: 150px 0px 150px 0px;
-	background-image: url('../src/images/IMG_1024.JPG');
+
+	background-image: url('../src/images/IMG_1024.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 300px;
+	height: 600px;
 }
 
 .experience-title {
-	padding: 40px 200px 0 200px;
+	width: 500px;
+	padding: 50px 0;
+	margin: 0 auto;
 }
 
 .experience-title h1 {
@@ -210,7 +258,9 @@ footer {
 }
 
 .personal-project-title {
-	padding: 50px 230px;
+	padding: 50px 0;
+	width: 450px;
+	margin: 0 auto;
 }
 
 .personal-project-title h1 {
@@ -253,7 +303,9 @@ footer {
 }
 
 .school-project-title {
-	padding: 30px 250px 80px 250px;
+	width: 450px;
+	padding: 30px 0;
+	margin: 0 auto;
 }
 
 .school-project-title h1 {
@@ -264,22 +316,22 @@ footer {
 /*Education page below*/
 
 .education-wapper {
-	padding: 150px 0px 150px 0px;
 	background-image: url('../src/images/math.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 300px;
+	height: 600px;
 }
 
 .education-title {
-	padding: 40px 300px 0 300px;
+	width: 300px;
+	padding: 50px 0;
+	margin: 0 auto;
 }
 
 .education-title h1 {
 	color: #151B54;
 	text-align: center;
 	border-bottom: 2px solid #151B54;
-	margin-bottom: 100px;
 }
 
 .education-contents {
@@ -327,7 +379,7 @@ footer {
 
 .vertical-line {
 	height: 100px;
-	width: 100%;
+	width: 200px;
 	border-left: 5px solid grey;
 	margin-left: 100px;
 }
@@ -340,10 +392,29 @@ footer {
 /*skills below*/
 
 .skills-wapper {
-	padding: 150px 0px 150px 0px;
 	background-image: url('../src/images/programing.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 300px;
+	height: 600px;
 }
+
+.skills-title {
+	width: 350px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+.skills-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	margin-bottom: 50px;
+}
+
+.skills-contents {
+	height: 1200px;
+	width: 100%;
+}
+
+
 
