@@ -33,6 +33,11 @@ a {
   opacity: 0.9;
 }
 
+.header a:hover {
+	background-color: grey;
+	transition-duration: 500ms;
+}
+
 .header-container {
 	height: 90px;
 	width: 100%;
@@ -40,22 +45,23 @@ a {
 
 .header-icon {
 	float: left;
-	padding: 20px 40px;
+	padding: 20px 00px;
 	color: white;
 	position: fixed;
 }
 
 .header-icon a {
 	color: white;
+	padding: 26px 40px;
 }
 
 .header-list li {
 	float: left;
-	padding: 33px 20px;
-	color: white;
+	margin: 33px 0px;
 }
 
-.header-list li a {
+.header-list a {
+	padding: 35px 20px;
 	color: white;
 }
 
@@ -495,19 +501,6 @@ footer {
 	background-color: #6d56c1;
 	border-radius: 10px;
 }
-
-/*.programming img {
-	display: block;
-	height: 70%;
-	width: auto;
-}
-
-.programming h1 {
-	float: right;
-	padding-right: 100px;
-}
-*/
-
 
 
 
