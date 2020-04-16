@@ -425,13 +425,13 @@ footer {
 	height: 600px;
 }
 
-.skills-title {
-	width: 450px;
-	padding: 40px 0;
+.programming-skills-title {
+	width: 350px;
+	padding-top: 40px;
 	margin: 0 auto;
 }
 
-.skills-title h1 {
+.programming-skills-title h1 {
 	color: #151B54;
 	text-align: center;
 	border-bottom: 2px solid #151B54;
@@ -442,7 +442,7 @@ footer {
 	height: 500px;
 }
 
-.programming {
+.content {
 	width: 400px;
 	height: 100px;
 	float: left;
@@ -495,6 +495,48 @@ footer {
 	border-radius: 10px;
 }
 
+.progress-bar-solidworks {
+	width: 90%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-onshape {
+	width: 97%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-inventor {
+	width: 80%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-autocad {
+	width: 70%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-fusion {
+	width: 70%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-illustrator {
+	width: 60%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
 .progress-bar-c {
 	width: 90%;
 	height: 8px;
@@ -525,12 +567,12 @@ footer {
 
 
 .computer-skills {
-	height: 500px;
+	height: 600px;
 }
 
 .computer-skills-title {
-	width: 400px;
-	padding: 40px 0;
+	width: 150px;
+	padding-top: 40px;
 	margin: 0 auto;
 }
 
@@ -541,7 +583,22 @@ footer {
 	margin-bottom: 50px;
 }
 
+.hardware-skills {
+	height: 600px;
+}
 
+.hardware-skills-title {
+	width: 300px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+.hardware-skills-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	margin-bottom: 50px;
+}
 
 
 
