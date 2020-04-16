@@ -55,6 +55,10 @@ a {
 	padding: 26px 40px;
 }
 
+.header-list {
+	float: right;
+}
+
 .header-list li {
 	float: left;
 	margin: 33px 0px;
@@ -63,10 +67,6 @@ a {
 .header-list a {
 	padding: 35px 20px;
 	color: white;
-}
-
-.header-list {
-	float: right;
 }
 
 .container {
@@ -90,7 +90,16 @@ a {
 .message-wapper h1 {
 	text-align: center;
 	padding: 0 0 10px 0;
-	font-size: 40px
+	font-size: 40px;
+	position: relative;
+	animation: heading;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+	0%	{left: -1000px}
+	100%{left: 0px}
 }
 
 .message-wapper p {
@@ -98,6 +107,15 @@ a {
 	padding: 10px 0 10px 0;
 	font-size: 25px;
 	border-bottom: 2px solid #151B54;
+	position: relative;
+	animation: headings;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes headings {
+	0%	{right: -1000px}
+	100%{right: 0px}
 }
 
 .intro-title {
@@ -123,6 +141,7 @@ a {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 .description {
 	text-align: center;
 	color: #151B54;
@@ -131,6 +150,7 @@ a {
 	width: 400px;
 	float: left;
 	padding: 30px;
+	position: relative;
 }
 
 .aboutme-container {
