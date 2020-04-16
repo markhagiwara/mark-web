@@ -468,8 +468,29 @@ footer {
 	border-radius: 10px;
 }
 
-.progress-bar {
-	width: 80%;
+.progress-bar-c {
+	width: 90%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-python {
+	width: 70%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-html {
+	width: 95%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
+
+.progress-bar-git {
+	width: 90%;
 	height: 8px;
 	background-color: #6d56c1;
 	border-radius: 10px;
