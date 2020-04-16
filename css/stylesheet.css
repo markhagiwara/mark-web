@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6, p,
 form, input, div {
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -438,7 +439,7 @@ footer {
 }
 
 .programming-skills {
-	height: 1000px;
+	height: 500px;
 }
 
 .programming {
@@ -523,11 +524,22 @@ footer {
 }
 
 
+.computer-skills {
+	height: 500px;
+}
 
+.computer-skills-title {
+	width: 400px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
 
-
-
-
+.computer-skills-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	margin-bottom: 50px;
+}
 
 
 
