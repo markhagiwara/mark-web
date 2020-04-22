@@ -635,3 +635,25 @@ footer {
 	border-radius: 10px;
 }
 
+/*from here is the awards page*/
+
+.awards-wapper {
+	background-image: url('../src/images/award.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
