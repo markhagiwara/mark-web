@@ -538,7 +538,7 @@ footer {
 }
 
 .progress-bar-c {
-	width: 90%;
+	width: 80%;
 	height: 8px;
 	background-color: #6d56c1;
 	border-radius: 10px;
@@ -559,7 +559,7 @@ footer {
 }
 
 .progress-bar-git {
-	width: 90%;
+	width: 80%;
 	height: 8px;
 	background-color: #6d56c1;
 	border-radius: 10px;
@@ -600,13 +600,38 @@ footer {
 	margin-bottom: 50px;
 }
 
+.progress-bar-arduino {
+	width: 90%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
 
+.progress-bar-raspberrypi {
+	width: 80%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
 
+.progress-bar-jetsonnano {
+	width: 75%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
 
+.progress-bar-mindstorm {
+	width: 95%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
 
-
-
-
-
-
+.progress-bar-vex {
+	width: 90%;
+	height: 8px;
+	background-color: #6d56c1;
+	border-radius: 10px;
+}
 
