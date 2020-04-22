@@ -201,7 +201,11 @@ footer {
 .footer-email {
 	padding: 30px;
 	float: left;
+}
 
+.footer-email a {
+	text-decoration: none;
+	color: white;
 }
 
 .footer-sns {
