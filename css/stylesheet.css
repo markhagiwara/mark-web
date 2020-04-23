@@ -255,22 +255,43 @@ footer {
 	border-bottom: 2px solid #151B54;
 }
 
-.experience-contents li {
-	padding: 50px 0px 330px 0;
-	list-style: none;
+.experience-contents {
+	height: 800px;
 }
 
 .experience-contents p {
 	letter-spacing: 1px;
 }
 
-.nasa img {
-	width: 20%;
+.nasa {
+	height: 350px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.nasa-image {
+	width: 180px;
+	height: 180px;
+}
+
+.nasa-image img {
+	width: 100%;
 	float: left;
 }
 
-.foothill img {
-	width: 20%;
+.foothill {
+	height: 350px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.foothill-image {
+	height: 180px;
+	width: 180px;
+}
+
+.foothill-image img {
+	width: 100%;
 	float: left;
 }
 
@@ -287,11 +308,12 @@ footer {
 .description-container {
 	float: left;
 	padding: 10px;
+	height: 200px;
 }
 
 /*This is personal project*/
 
-.personal-project-contents li {
+.personal-project-contents {
 	padding: 0px 0px 250px 0;
 	list-style: none;
 }
@@ -307,9 +329,20 @@ footer {
 	border-bottom: 2px solid #151B54;
 }
 
-.ushinohi-logo {
-	width: 15%;
+.ushinohi-image {
+	height: 180px;
+	width: 180px;
+}
+
+.ushinohi-image img {
+	width: 100%;
 	border-radius: 100px;
+}
+
+.description-container-ushinohi {
+	float: left;
+	padding: 10px;
+	height: 500px;
 }
 
 .personal-project-contents p {
