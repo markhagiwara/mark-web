@@ -169,7 +169,7 @@ a {
 	padding-top: 50px;
 }
 
-.quote-content h1 {
+.quote-content h1{
 	text-align: center;
 	font-style: italic;
 	color: grey;
@@ -177,12 +177,13 @@ a {
 }
 
 .quote-content h2 {
-	text-align: right;
+	float: right;
 	font-style: italic;
 	color: grey;
 	font-family: "Times New Roman", Times, serif;
-	padding-right: 30px;
+	padding: 10px 30px 0 0;
 }
+
 
 footer {
 	background-color: #2f5167;
@@ -437,7 +438,7 @@ footer {
 
 .programming-skills-title {
 	width: 350px;
-	padding-top: 40px;
+	padding-top: 50px;
 	margin: 0 auto;
 }
 
@@ -656,7 +657,7 @@ footer {
 
 .award-skills-title {
 	width: 300px;
-	padding: 40px 0 20px 0;
+	padding: 50px 0 20px 0;
 	margin: 0 auto;
 }
 
