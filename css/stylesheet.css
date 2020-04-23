@@ -117,8 +117,8 @@ a {
 }
 
 @keyframes headings {
-	0%	{right: -1000px}
-	100%{right: 0px}
+	0%	{left: -1000px}
+	100%{left: 0px}
 }
 
 .intro-title {
@@ -189,6 +189,7 @@ footer {
 	background-color: #2f5167;
 	height: 220px;
 	width: 100%;
+	bottom: 0;
 }
 
 .footer-logo {
@@ -671,6 +672,7 @@ footer {
 .skills-canada {
 	height: 400px;
 	width: auto;
+	padding: 50px 0;
 }
 
 .award-image {
@@ -695,6 +697,7 @@ footer {
 }
 
 .award-standing {
+	height: 200px;
 	width: 900px;
 	float: left;
 	letter-spacing: 1px;
@@ -711,9 +714,11 @@ footer {
 .wro {
 	height: 350px;
 	width: auto;
+	padding: 50px 0;
 }
 
 .fll {
 	height: 300px;
 	width: auto;
+	padding: 50px 0;
 }
