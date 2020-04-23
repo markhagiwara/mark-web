@@ -157,16 +157,15 @@ a {
 }
 
 .aboutme-container {
-	height: 300px;
+	height: 400px;
 	width: 800px;
 	margin: 0 auto;
 }
 
 .quote-wapper {
-	height: 300px;
+	height: 210px;
 	width: 700px;
 	margin: 0 auto;
-	padding-top: 50px;
 }
 
 .quote-content h1{
