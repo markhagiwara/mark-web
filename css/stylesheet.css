@@ -11,9 +11,9 @@ body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
-/*li {
-  list-style: none;
-}*/
+li {
+  letter-spacing: 1px;
+}
 
 h1, h2, h3, p ,div {
 	font-weight: normal;
@@ -258,10 +258,6 @@ footer {
 	height: 800px;
 }
 
-.experience-contents p {
-	letter-spacing: 1px;
-}
-
 .nasa {
 	height: 350px;
 	width: 100%;
@@ -412,7 +408,7 @@ footer {
 .education-content {
 	width: 900px;
 	height: 200px;
-	padding: 10px 0;
+	padding: 50px 0;
 }
 
 .education-pic {
