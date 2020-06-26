@@ -366,7 +366,7 @@ footer {
 /*School project below*/
 
 .school-project-contents {
-	padding: 0px 0px 1100px 0;
+	padding: 0px 0px 1000px 0;
 }
 
 .school-project-title {
@@ -379,6 +379,45 @@ footer {
 	text-align: center;
 	border-bottom: 2px solid #151B54;
 }
+
+/*Other activity below*/
+.other-activity-contents {
+	padding: 0px 0px 250px 0;
+	list-style: none;
+}
+
+.other-activity-title {
+	padding: 50px 0;
+	width: 450px;
+	margin: 0 auto;
+}
+
+.other-activity-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+.nasa-hackathon-image {
+	height: 180px;
+	width: 180px;
+}
+
+.nasa-hackathon-image img {
+	width: 100%;
+	border-radius: 100px;
+}
+
+.description-container-nasa-hackathon {
+	float: left;
+	padding: 10px;
+	height: 200px;
+}
+
+.other-activity-contents p {
+	letter-spacing: 1px;
+}
+
+
 
 /*Education page below*/
 
