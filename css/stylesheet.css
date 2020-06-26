@@ -79,7 +79,7 @@ a {
 }
 
 .top-wapper {
-	background-image: url('../src/images/image.jpg');
+	background-image: url('../src/images/top-image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
